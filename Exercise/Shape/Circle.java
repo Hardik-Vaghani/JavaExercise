@@ -1,4 +1,4 @@
-package Shape;
+package Exercise.Shape;
 
 public class Circle {
     public double Circle(double r) {

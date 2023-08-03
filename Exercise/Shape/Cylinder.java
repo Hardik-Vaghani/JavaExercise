@@ -1,4 +1,4 @@
-package Shape;
+package Exercise.Shape;
 
 public class Cylinder {    
     public double Cylinder(double r, double h){

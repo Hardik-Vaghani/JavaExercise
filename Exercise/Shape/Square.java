@@ -1,4 +1,4 @@
-package Shape;
+package Exercise.Shape;
 
 public class Square {
     public double Square(double s){

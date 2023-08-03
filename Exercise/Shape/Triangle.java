@@ -1,4 +1,4 @@
-package Shape;
+package Exercise.Shape;
 
 public class Triangle {
     public double Triangle(double h,double b){
