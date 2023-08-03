@@ -11,7 +11,7 @@ class Student {
 }
   
 public class Oops {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Student s1 = new Student();
         s1.name = "Aman";
         s1.age = 24;

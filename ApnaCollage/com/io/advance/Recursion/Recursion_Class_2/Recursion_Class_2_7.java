@@ -46,7 +46,7 @@ public class Recursion_Class_2_7 {
         printSubseq(str, idx+1, res, allSubseq);
 
     }
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         String str1 = "abc";
         String str2 = "aaa";
         HashSet<String> allSubseq = new HashSet<>();

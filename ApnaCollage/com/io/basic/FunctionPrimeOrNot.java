@@ -15,7 +15,6 @@ public class FunctionPrimeOrNot {
         }else{
             System.out.println("number is lesser than");
         }
-        return;
     }
 
     public static void main(String[] args) {

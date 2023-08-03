@@ -3,7 +3,7 @@ package ApnaCollage.com.io.basic;
 import java.util.*;
  
 public class EmailToUsername {
-   public static void main(String args[]) {
+   public static void main(String[] args) {
      Scanner sc = new Scanner (System.in);
      String email = sc.next();
      String userName = "";

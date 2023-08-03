@@ -33,8 +33,8 @@ public class ConverterLakhFormat {
         }
 
         if (number < 100) {
-            long remainder = (long) (number % 10);
-            long tens = (long) (number - remainder);
+            long remainder = number % 10;
+            long tens = number - remainder;
             return (convertRecursion(tens, false) + " " + convertRecursion(remainder, false)).trim();
         }
 
@@ -49,57 +49,57 @@ public class ConverterLakhFormat {
             }
         }
 
-        long remainder = (long) (number % (long) Math.pow(10, mostSignificantPower));
-        long powerDigit = (long) (number / (long) Math.pow(10, mostSignificantPower));
-        return (convertRecursion((long) powerDigit, false) + " " + mostSignificantPowerSuffix + " " + convertRecursion((long) remainder, false)).trim();
+        long remainder = number % (long) Math.pow(10, mostSignificantPower);
+        long powerDigit = number / (long) Math.pow(10, mostSignificantPower);
+        return (convertRecursion(powerDigit, false) + " " + mostSignificantPowerSuffix + " " + convertRecursion(remainder, false)).trim();
     }
 
     private static void prepareDirectMappings() {
         if (directMappings == null) {
             directMappings = new HashMap<>();
-            directMappings.put(0l, "");
-            directMappings.put(1l, "One");
-            directMappings.put(2l, "Two");
-            directMappings.put(3l, "Three");
-            directMappings.put(4l, "Four");
-            directMappings.put(5l, "Five");
-            directMappings.put(6l, "Six");
-            directMappings.put(7l, "Seven");
-            directMappings.put(8l, "Eight");
-            directMappings.put(9l, "Nine");
-            directMappings.put(10l, "Ten");
-            directMappings.put(11l, "Eleven");
-            directMappings.put(12l, "Twelve");
-            directMappings.put(13l, "Thirteen");
-            directMappings.put(14l, "Fourteen");
-            directMappings.put(15l, "Fifteen");
-            directMappings.put(16l, "Sixteen");
-            directMappings.put(17l, "Seventeen");
-            directMappings.put(18l, "Eighteen");
-            directMappings.put(19l, "Nineteen");
-            directMappings.put(20l, "Twenty");
-            directMappings.put(30l, "Thirty");
-            directMappings.put(40l, "Fourty");
-            directMappings.put(50l, "Fifty");
-            directMappings.put(60l, "Sixty");
-            directMappings.put(70l, "Seventy");
-            directMappings.put(80l, "Eighty");
-            directMappings.put(90l, "Ninety");
+            directMappings.put(0L, "");
+            directMappings.put(1L, "One");
+            directMappings.put(2L, "Two");
+            directMappings.put(3L, "Three");
+            directMappings.put(4L, "Four");
+            directMappings.put(5L, "Five");
+            directMappings.put(6L, "Six");
+            directMappings.put(7L, "Seven");
+            directMappings.put(8L, "Eight");
+            directMappings.put(9L, "Nine");
+            directMappings.put(10L, "Ten");
+            directMappings.put(11L, "Eleven");
+            directMappings.put(12L, "Twelve");
+            directMappings.put(13L, "Thirteen");
+            directMappings.put(14L, "Fourteen");
+            directMappings.put(15L, "Fifteen");
+            directMappings.put(16L, "Sixteen");
+            directMappings.put(17L, "Seventeen");
+            directMappings.put(18L, "Eighteen");
+            directMappings.put(19L, "Nineteen");
+            directMappings.put(20L, "Twenty");
+            directMappings.put(30L, "Thirty");
+            directMappings.put(40L, "Fourty");
+            directMappings.put(50L, "Fifty");
+            directMappings.put(60L, "Sixty");
+            directMappings.put(70L, "Seventy");
+            directMappings.put(80L, "Eighty");
+            directMappings.put(90L, "Ninety");
         }
     }
 
     private static void preparePowerList() {
         if (powersList == null) {
             powersList = new ArrayList<>();
-            powersList.add(new PowerName(2l, "Hundred"));
-            powersList.add(new PowerName(3l, "Thousand"));
-            powersList.add(new PowerName(5l, "Lakh"));
-            powersList.add(new PowerName(7l, "Crore"));
-            powersList.add(new PowerName(9l, "Arab"));
-            powersList.add(new PowerName(11l, "Kharab"));
-            powersList.add(new PowerName(13l, "Nil"));
-            powersList.add(new PowerName(15l, "Padma"));
-            powersList.add(new PowerName(17l, "Shankh"));
+            powersList.add(new PowerName(2L, "Hundred"));
+            powersList.add(new PowerName(3L, "Thousand"));
+            powersList.add(new PowerName(5L, "Lakh"));
+            powersList.add(new PowerName(7L, "Crore"));
+            powersList.add(new PowerName(9L, "Arab"));
+            powersList.add(new PowerName(11L, "Kharab"));
+            powersList.add(new PowerName(13L, "Nil"));
+            powersList.add(new PowerName(15L, "Padma"));
+            powersList.add(new PowerName(17L, "Shankh"));
             //arab,kharab,nil,padma,shankh
         }
     }

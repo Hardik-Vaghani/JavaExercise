@@ -17,7 +17,7 @@ class Chicken implements Animal {                                            //i
 }                                                                                        /*/Multiple Inheritance /Inter Face/*/
   
  public class Interfaces {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
        Horse horse = new Horse();
        horse.walk();
     }

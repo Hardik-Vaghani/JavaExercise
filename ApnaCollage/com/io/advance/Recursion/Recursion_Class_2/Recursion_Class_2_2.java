@@ -16,7 +16,7 @@ public class Recursion_Class_2_2 {
     }
     getIndices(str, el, idx+1);
     }
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         String str = "tabcdfghijakkk";
         char el = 'a';
         getIndices(str, el, 0);

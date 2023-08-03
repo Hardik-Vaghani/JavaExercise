@@ -8,7 +8,7 @@ public class A {
             for( int j = 1; j < 2*n; j ++) {
                 if( j==x || j==n+i-1 ) {
                     System.out.print(j);
-                }else if((j>=x)!=false && j<=n+i-1 && i==n/2+1) {
+                }else if((j >= x) && j<=n+i-1 && i==n/2+1) {
                     System.out.print("*");
                 }else{
                     System.out.print(" ");

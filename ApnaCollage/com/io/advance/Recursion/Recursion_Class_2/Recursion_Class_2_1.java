@@ -29,7 +29,7 @@ public class Recursion_Class_2_1 {
         String nextString = revString(str.substring(1));
         return nextString + currChar;
         }
-        public static void main(String args[]) {
+        public static void main(String[] args) {
         
         String str = "abcd";
         String reversed = revString(str);

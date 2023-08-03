@@ -7,7 +7,7 @@ public class ArrayInput {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);//object
         int size = sc.nextInt();
-        int number[]=new int[size];         //object
+        int[] number =new int[size];         //object
 
         //input
         for(int i=0;i<size;i++){

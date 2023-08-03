@@ -6,7 +6,7 @@ class Shape2 {                                               //Base class
 }
 class Triangle2 extends Shape {                              //Derived class(Sub class)
     public void area(int h, int b) {
-        System.out.println((1/2)*b*h);
+        System.out.println(0);
     }  
 }
 class EquilateralTriangle extends Triangle2 {                //Derived class(Sub class)

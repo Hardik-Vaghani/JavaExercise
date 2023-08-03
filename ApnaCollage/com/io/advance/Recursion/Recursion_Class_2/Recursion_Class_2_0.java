@@ -13,7 +13,7 @@ public class Recursion_Class_2_0 {
     //transfer n-1 from helper to dest using src as 'helper'
     towerOfHanoi(n-1, helper, src, dest);
     }
-    public static void main(String args[]) {
+    public static void main(String[] args) {
     int n = 3;
     towerOfHanoi(n, "A", "B","C");
     }

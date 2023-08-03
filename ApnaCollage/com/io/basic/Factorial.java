@@ -16,7 +16,6 @@ public class Factorial {
             Factorial = Factorial*i;//factorial=facorial=1;*i=5;*i=4;*i=3;*i=2;*i=1;==120//
         }
         System.out.println(Factorial);
-        return;
     }
 
     public static void main(String[] args) {

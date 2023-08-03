@@ -3,7 +3,7 @@ package ApnaCollage.com.io.basic;
 import java.util.Scanner;
 
 public class UpdateBitManipulation {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int oper = sc.nextInt();
         // oper=1 -> set; oper=0 -> clear

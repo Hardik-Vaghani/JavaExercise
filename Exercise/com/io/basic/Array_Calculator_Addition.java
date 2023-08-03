@@ -2,7 +2,7 @@ package Exercise.com.io.basic;
 
 public class Array_Calculator_Addition {
     public static void main(String[] args) {
-        int HK[] = {32,12,35,7,9,01,4,38,7};
+        int[] HK = {32,12,35,7,9,01,4,38,7};
         int sum = 0;
         
         int i=0;

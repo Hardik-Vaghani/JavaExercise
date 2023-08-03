@@ -4,7 +4,7 @@ import java.util.*;
  
 public class PowerOfOneNumberByAnotherNumber {
 
-   public static void main(String args[]) {
+   public static void main(String[] args) {
        System.out.println("Enter x");
        Scanner sc = new Scanner(System.in);
        int x = sc.nextInt();

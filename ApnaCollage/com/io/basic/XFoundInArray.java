@@ -3,7 +3,7 @@ package ApnaCollage.com.io.basic;
 import java.util.Scanner;
 
 public class XFoundInArray {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int rows = sc.nextInt();
         int cols = sc.nextInt();

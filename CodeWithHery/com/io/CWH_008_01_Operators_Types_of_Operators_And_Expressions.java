@@ -16,7 +16,7 @@ public class CWH_008_01_Operators_Types_of_Operators_And_Expressions {
 
         // 4. Logical Operators
         // System.out.println(64>5 && 64>98);
-        System.out.println(64>5 || 64>98);
+        System.out.println(true);
 
         // 5. Bitwise Operators
         System.out.println(2&3);

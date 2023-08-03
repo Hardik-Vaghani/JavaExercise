@@ -10,7 +10,7 @@ public class TestInsertion {
     }
     
     public static void main(String[] args) {
-        int arr [] = { 5, 8, 3, 2, 1, 6, 7, 9};
+        int[] arr = { 5, 8, 3, 2, 1, 6, 7, 9};
 
         for( int i = 1; i < arr.length; i ++) {
             int current = arr[i];

@@ -24,7 +24,7 @@ package ApnaCollage.com.io.advance.Recursion.Recursion_Class_2;
 //Q4. Check if an array is sorted (strictly increasing). - O(n)
 
 public class Recursion_Class_2_3 {
-    public static boolean isSorted(int arr[],int idx){
+    public static boolean isSorted(int[] arr, int idx){
         if(arr[idx]==arr.length){  // if(idx==arr.length-1){  //
             return true;
         }

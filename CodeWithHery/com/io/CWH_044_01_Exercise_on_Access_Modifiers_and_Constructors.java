@@ -34,8 +34,8 @@ class Cylinder{
 }
 
 class Rectangle1{
-    private int length;
-    private int breadth;
+    private final int length;
+    private final int breadth;
 
     public Rectangle1() {
         this.length = 4;

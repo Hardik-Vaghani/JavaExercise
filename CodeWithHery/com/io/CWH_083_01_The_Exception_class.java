@@ -35,7 +35,7 @@ public class CWH_083_01_The_Exception_class {
             }
             catch (Exception e){
                 System.out.println(e.getMessage());
-                System.out.println(e.toString());
+                System.out.println(e);
                 e.printStackTrace();
                 System.out.println("Finished");
             }

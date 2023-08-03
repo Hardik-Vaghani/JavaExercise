@@ -7,7 +7,7 @@ class Shape1 {                                           //Base Class
 }
 class Triangle1 extends Shape {                          //extend ,Derived class(Sub class)
     public void area(int h, int b) {
-        System.out.println((1/2)*b*h);
+        System.out.println(0);
     }  
 }
 class Circle1 extends Shape {                            //extend ,Derived class(Sub class)
@@ -17,8 +17,8 @@ class Circle1 extends Shape {                            //extend ,Derived class
 }   
 class Pyramid extends Triangle1 {                         //extend ,Derived class(Sub class)         <-
     public void area(int h, int b) {
-        System.out.println((1/2)*h*b);
-        System.out.println((1/2)*h*b);
+        System.out.println(0);
+        System.out.println(0);
     }  
 }                                                               /*/Hybrid  Level Inheritance /*/
 

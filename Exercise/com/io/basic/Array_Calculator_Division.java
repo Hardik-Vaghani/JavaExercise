@@ -2,7 +2,7 @@ package Exercise.com.io.basic;
 
 public class Array_Calculator_Division {
     public static void main(String[] args) {
-        float HK[] = {100,5,2,8,2,7};
+        float[] HK = {100,5,2,8,2,7};
         float Div = HK[0];
         
         for(int i=1;i<HK.length;i++){

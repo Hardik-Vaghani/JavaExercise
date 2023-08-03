@@ -9,7 +9,7 @@ class Pen {
 }
   
  public class OopsPen {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Pen p1 = new Pen();
         p1.color = "Blue";
   

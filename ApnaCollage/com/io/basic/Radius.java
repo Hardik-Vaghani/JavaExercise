@@ -8,7 +8,7 @@ public class Radius {
     public static Double getCircumference(Double radius) {
         return 2 * 3.14 * radius;    //2 pai R
     }
-    public static void main(String args[]) {
+    public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
        Double radius = sc.nextDouble();
 

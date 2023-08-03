@@ -9,7 +9,6 @@ public class HomeWork18UpVote {
         }else{
             System.out.println("that person is not eligible");
         }
-        return;
     }
 
     public static void main(String[] args) {

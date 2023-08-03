@@ -7,13 +7,13 @@ public class DP1_02 {
             for(int j=n-1;j>=i;j--){
                 System.out.print("8");
             }
-            for(int j=1*2;j<=i*2;j++){
+            for(int j = 2; j<=i*2; j++){
                 System.out.print("*");
             }
             for(int j=n*2-1;j>=i*2;j--){
                 System.out.print("8");
             }
-            for(int j=1*2;j<=i*2;j++){
+            for(int j = 2; j<=i*2; j++){
                 System.out.print("*");
             }
             System.out.println();

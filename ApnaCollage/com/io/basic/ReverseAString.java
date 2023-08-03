@@ -2,7 +2,7 @@ package ApnaCollage.com.io.basic;
 
 public class ReverseAString {      //(using StringBuilder class)
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         StringBuilder sb = new StringBuilder("HelloWorld");
        
         for(int i=0; i<sb.length()/2; i++) {

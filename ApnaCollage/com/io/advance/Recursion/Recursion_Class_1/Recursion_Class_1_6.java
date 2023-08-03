@@ -15,7 +15,7 @@ public class Recursion_Class_1_6 {
         }
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int x = 2, n = 5;
         int output = printPower(x, n);
         System.out.println(output);

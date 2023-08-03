@@ -7,7 +7,7 @@ class Shape3 {                                           //base class
 }
 class Triangle3 extends Shape3 {                          //Derived class(Sub class)
     public void area(int l, int h) {
-        System.out.println((1/2)*l*h);
+        System.out.println(0);
     }   
 }                                                                           /*/ Single Level Inheritance /*/
  

@@ -18,7 +18,7 @@ public class CWH_028_01_Multidimensional_Arrays {
                 System.out.print(flats[i][j]);
                 System.out.print(" ");
             }
-            System.out.println("");
+            System.out.println();
         }
 
     }

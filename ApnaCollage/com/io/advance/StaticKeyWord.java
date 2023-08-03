@@ -6,7 +6,7 @@ class Student1 {
 }
   
 public class StaticKeyWord {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Student1.school = "JMV";      //static calling directly
         Student1 s1 = new Student1();  //objecte calling
         Student1 s2 = new Student1();  //objecte calling
@@ -14,7 +14,7 @@ public class StaticKeyWord {
         s1.name = "Meena";
         s2.name = "Beena";
   
-        System.out.println(s1.school);
-        System.out.println(s2.school);
+        System.out.println(Student1.school);
+        System.out.println(Student1.school);
     }
 }

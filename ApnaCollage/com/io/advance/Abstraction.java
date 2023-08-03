@@ -29,7 +29,7 @@ class Chicken extends Animal {                                          //extend
 }
   
  public class Abstraction {
-    public static void main(String args[]) {   
+    public static void main(String[] args) {
        Horse horse = new Horse();                       //objecte calling
        horse.walk();
        horse.breathe();
