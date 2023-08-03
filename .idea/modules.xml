@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ApnaCollege/ApnaCollege.iml" filepath="$PROJECT_DIR$/ApnaCollege/ApnaCollege.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projects.iml" filepath="$PROJECT_DIR$/Projects.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javafiles/javafiles.iml" filepath="$PROJECT_DIR$/javafiles/javafiles.iml" />
     </modules>
   </component>
 </project>
